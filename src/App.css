@@ -1,0 +1,503 @@
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+/*HEADER********************************************************************************************************/
+.APP_HEADER{
+  background-color: #3772FF;
+  height: 32px;
+  width: 100%;
+}
+/*MAIN_SECTION**************************************************************************************************/
+.APP_SECTION{
+  background-color: #191B20;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  column-gap: 2px;
+}
+.LEFT_SECTION{
+  background-color: #000000;
+}
+.MIDDLE_SECTION{
+  background-color: #000000;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.RIGHT_SECTION{
+  background-color: #000000;
+}
+
+
+.MIDDLE_SECTION_CONTAINER{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.SECTION_HEADING{
+  height: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SECTION_HEADING_DETAILS{
+  height:22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #242731;
+  padding: 4px;
+  border: 2px solid #242731;
+  border-radius: 4px;
+}
+.SECTION_HEADING_DETAILS p{
+  margin: 2px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.REFERRAL_SECTION{
+  width: 105%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TABLE_CONTAINER{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.TABLE_TAB{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.TABLE_TAB p{
+  margin: 4px;
+}
+.TABLE_HEADER{
+  width: 100%;
+  height: 28px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #191B20;
+  border: 2px solid #191B20;
+  border-radius: 4px;
+}
+.TABLE_HEADER>*{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.TABLE_BODY{
+  width: 100%;
+  margin-top: 8px;
+}
+
+/*TUTORIAL CARD********************************************************************************************/
+.TUTORIAL_CARD{
+  background-color: lightskyblue;
+  border: 2px solid lightskyblue;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.TUTORIAL_DETAILS{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.TUTORIAL_CARD img{
+  height: 80px;
+  width: 80px;
+}
+
+
+
+/*REWARD_CARD**********************************************************************************************/
+.REWARD_CARD{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #191B20;
+  padding: 8px;
+  margin: 8px;
+  border: 2px solid #191B20;
+  border-radius: 8px;
+}
+.REWARD_CARD label{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.REWARD_DETAILS{
+  display: flex;
+  flex-direction: column;
+}
+.REWARD_COINS{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.REWARD_COINS label{
+  margin-right: 4px;
+  background-color: #242731;
+  padding: 1px 4px 1px 4px;
+  border: 2px solid #242731;
+  border-radius: 8px;
+}
+
+
+
+/*REFERRAL_CARD*******************************************************************************************/
+.REFERRAL_CARD{
+  background-color: #191B20;
+  height: 120px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+  border: 2px solid #191B20;
+  border-radius: 8px;
+}
+.REFERRAL_DETAILS{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.REFERRAL_LINK{
+  background-color: #242731;
+  width: 94%;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 8px;
+  border: 2px solid #242731;
+  border-radius: 4px;
+}
+
+
+
+/*Left Section***************************************************************************************************/
+.LEFT_SECTION_CONTAINER{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px;
+  height: 90%;
+}
+.LEFT_SECTION_TOP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.LEFT_SECTION_ACCOUNT{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.LEFT_SECTION_HEADING{
+  display: flex;
+  flex-direction: column;
+}
+.LEFT_SECTION_HEADING>*{
+  border: 2px solid #000000;
+  border-radius: 2px;
+  padding: 4px;
+  height: 32px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LEFT_SECTION_HEADING>*:hover{
+  border: 2px solid #242731;
+  border-radius: 4px;
+  background-color: #242731;
+  color: white;
+}
+.LEFT_SECTION_BOTTOM{
+  width: 100%;
+}
+.LEFT_SECTION_BUY_SELL{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LEFT_SECTION_BUY_SELL >*{
+  margin: 4px;
+}
+.LEFT_SECTION_UIBUTTONS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LEFT_SECTION_UIBUTTONS >*{
+  margin: 4px;
+}
+
+
+
+
+/************************************************************/
+.RIGHT_SECTION_CONTAINER{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px;
+}
+.RIGHT_SECTION_CONTAINER>*{
+  margin: 8px;
+}
+.RIGHT_SECTION_DROPDOWN{
+  display: flex;
+  flex-direction: row;
+}
+.RIGHT_SECTION_DROPDOWN>*{
+  margin: 4px;
+}
+.RIGHT_SECTION_BUTTONS{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.RIGHT_SECTION_CUSTOM_LINK>*{
+  margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+/*GLOBAL_DESIGN*************************************************************************************************/
+.TIER{
+  height: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px;
+  background-color: #3772FF;
+  border: 2px solid #3772FF;
+  border-radius: 4px;
+}
+.CLOSE_BUTTON{
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+  color: wheat;
+  top: -12px;
+  right: -12px;
+  height: 24px;
+  width: 24px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+}
+.TUTORIAL_BUTTON{
+  border: 2px solid white;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.CUSTOM_LINK_BUTTON{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3772FF;
+  padding: 4px;
+  color: white;
+  border: 2px solid #3772FF;
+  border-radius: 4px;
+}
+.CANCEL_BUTTON{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #191B20;
+  padding: 4px;
+  color: white;
+  border: 2px solid #191B20;
+  border-radius: 4px;
+}
+.ABSTRACT_BUTTON{
+  background-color: white;
+  border: 1px solid black;
+  height: 14px;
+  width: 4px;
+  box-shadow: 2px 2px white;
+}
+.IMAGE_ICON{
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.EXTRA_SMALL_FONT{
+  font-size: 12px;
+}
+.SMALL_FONT{
+  font-size: 14px;
+}
+.MEDIUM_FONT{
+  font-size: 16px;
+  font-weight: 600;
+}
+.LARGE_FONT{
+  font-size: 18px;
+}
+.EXTRA_LARGE_FONT{
+  font-size: 24px;
+}
+.DARK_FONT{
+  color: #242731;
+}
+.WHITE_FONT{
+  color: white;
+}
+
+.UNDERLINED_HEADING{
+  position: relative;
+}
+.UNDERLINED_HEADING::after{
+  display: flex;
+  position: absolute;
+  content: '';
+  color: #3772FF;
+  background-color: #3772FF;
+  height: 2px;
+  width: 100%;
+}
+.ROUND24PIXEL{
+  height: 44px;
+  width: 44px;
+  border: 2px solid #f0f0f0;
+  background-color: #3772FF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DARK_INPUT_FIELD{
+  height: 32px;
+  width: 100%;
+  border: 2px solid #242731;
+  border-radius: 4px;
+  background-color: #242731;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.DARK_INPUT_FIELD:focus{
+ outline: 2px solid #3772FF;
+ color: white;
+}
+.DROPDOWN{
+  height: 32px;
+  background-color: #242731;
+  color: white;
+  border: 2px solid #242731;
+  border-radius: 4px;
+}
+.DROPDOWN:focus{
+  outline: 2px solid #3772FF;
+}
+.DROPDOWN_OPTION{
+  border: 2px solid #242731;
+  border-radius: 4px;
+}
+.DARK_ROUND_BACKGROUND{
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #242731;
+  border: 2px solid #242731;
+  border-radius: 4px;
+}
+.WORLD_BUTTON{
+  background-color: #000000;
+  border: none;
+  font-size: 24px;
+}
+.TOGGLE_BUTTON{
+  background-color: #191B20;
+  border: 2px solid #191B20;
+  border-radius: 16px;
+  font-size: 14px;
+  width: 34px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TOGGLE_BUTTON::after{
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid #3772FF;
+  border-radius: 50%;
+  position: absolute;
+  left: 16px;
+  transition: 0.6s ease all;
+}
+.TOGGLE_BUTTON:hover::after{
+  background-color: #191B20;
+  left: 0px;
+  transition: 0.6s ease all;
+  display: block;
+}
